@@ -1,0 +1,113 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+body {
+  font-family: sans-serif;
+  background: F5F6F7;
+  transition: all 2s;
+  color: black;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+
+.searchForm {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.searchInput {
+    font-family: sans-serif;
+    align-items: center;
+    background-color: white;
+    border: none;
+    height: 44px;
+    width: 550px;
+    padding: 5px 10px;
+    color: black;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+}
+
+.searchButton {
+    font-family: sans-serif;
+    background-color: grey;
+    border: none;
+    height: 44px;
+    padding: 5px 10px;
+    color: white;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.searchResults {
+    padding: 20px 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: left;
+}
+
+
+.resultItem {
+    opacity: 100;
+    margin-bottom: 15px;
+    animation: show 0.5s forwards ease-in-out;
+    color: black;
+    border-radius: 2px;
+    padding: 10px;
+    width: 580px;
+    border: 2px solid grey;
+  }
+  
+  .resultItem-title {
+      margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .resultItem-title a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .resultItem-title a:hover {
+    text-decoration: underline;
+  }
+  
+  .resultItem-snippet{
+    color: black;
+    font-size: 13px;
+  }
+
